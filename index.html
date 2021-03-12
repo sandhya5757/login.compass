@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> login compass</title>
-        <link rel="stylesheet" href="styless.css">
-        <body>
+  <head>
+    <title>login compass</title>
+    <link rel="stylesheet" href="styless.css" />
+    <body>
+      <div class="container">
+        <form action="">
+          <div class="form-group">
+            <img src="img/ScreenShot_805.png" width="300px" height="100px" />
             
-            
-       <div class="container">
-               
-           <form action="">
-               
-               <div class ="form-group">
-                <img src="img/ScreenShot_805.png" width="300px" height="100px" >
-                <div class="message">
-                    <p><b> welcome Back</b></P>
-                
-                    </div>
-                    <a href="" class="button"> G signin with google </a>
-                    <div class="summa">
-                    <p>(or) Login to your account</p>
-                    </div>
-                    <div class="email">
-                   <label for="" >Email </label><br>
-                   <input type="text" class=" from-control" placeholder="name@example.com" required >
-                    </div>
-               </div>
               
-               <div class="form-group">
-                   <label for="">Password</label><br>
-                   <input type="password" class="btn" placeholder="*******" value="Login" ><br>
-                  <br> <p>Forgot Password?</p><br>
-
-               </div>
-
-                   
-               
+                <p id="message"> welcome back</p>
+                 
+            <a href="" class="button">G signin with google</a>
+            <div class="summa">
+              <p>(or)  Login to your account</p>
+            </div>
+            <div id="email">
+              <p> Email</p>
+              
+              <input
+                type="text"
+                class="from-control"
+                placeholder="name@example.com"
+                required
+              />
+              <p>password</p>
             
-               <div class="back">
-                    <p> Don't have an account?sign in!</p>
-                
-                   <input type="submit" class="btn1" value="Back Home">
-                   <input type="submit" class="btn2" value= "Login">
-               </div>
-           </form>
+              <input
+                type="password"
+                class="btn"
+                placeholder="*******"
+                value="Login"
+              />
+              <br />
+              <br />
+              <p>Forgot Password?</p>
+              <br />
+            </div>
+          </div>
 
-       </div>
-        </body>
-    </head>
+          <div class="back">
+            <p>Don't have an account?sign in!</p>
+            <span class="bottomButtons">
+              <input type="submit" class="btn1" value="Back Home" />
+              <input type="submit" class="btn2" value="Login" />
+            </span>
+          </div>
+        </form>
+      </div>
+    </body>
+  </head>
 </html>
+
+<!-- /*center: margin:auto,text-align:center,flex:center*/ -->
